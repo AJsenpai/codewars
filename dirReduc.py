@@ -12,7 +12,7 @@ You can immediatly see that going "NORTH" and immediately "SOUTH" is not reasona
 So the task is to give to the man a simplified version of the plan. Annihilate opposite directions like N<->S and E<->W:
 """
 
-# codewars solution
+# my solution
 def dirReduc(arr):
     direction = {"NORTH": "SOUTH", "SOUTH": "NORTH", "EAST": "WEST", "WEST": "EAST"}
     a = []
